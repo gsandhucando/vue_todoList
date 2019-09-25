@@ -31,8 +31,11 @@
 </template>
 
 <script>
+//state management and lifecycles
 export default {
+  //component
   name: 'HelloWorld',
+  //prop component can take
   props: {
     msg: String
   }
